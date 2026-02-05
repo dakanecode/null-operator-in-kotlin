@@ -31,4 +31,22 @@ fun main() {
 //    result = result + 4 // or result += 4 or result -= 4 or result *= 4 etc
     result += 4
     println(result)
+
+//    increment operator
+//    postfix incrementation:  Use the original value first, then increase it.
+//    var z = 0
+//    println(z++)
+//    Prefix incrementation: Increase first, then use the value.
+//    var w = 0
+//    println(++w)
+
+//    Decrement operator
+//    postfix decrementation:  Use the original value first, then decrease it.
+//    var a = 12
+//    println(a--)
+//    Prefix decrementation: decrease the value first, then use the value.
+//    var b = 12
+//    println(--b)
+
+    
 }

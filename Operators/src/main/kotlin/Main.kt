@@ -48,5 +48,37 @@ fun main() {
 //    var b = 12
 //    println(--b)
 
-    
+//     using greater than operator, equality operator, less than operator
+    val myNumber = 3
+    if (myNumber > 3) {               // the expression in the parenthesis is equated to true or false
+        println("my number is greater than $myNumber")
+    }else if(myNumber ==3 ){
+        println("My number is equal to $myNumber")
+    }else if(myNumber < 3){
+        println("My number is less than $myNumber")
+    } else{
+        println("All conditions have failed")
+    }
+
+//    logical not , logical AND($$) and logical OR(||)
+    var hasPermision = true
+    val age = 20
+    if(!hasPermision){
+        println("Access denied")
+    }else if(!hasPermision && age < 18){
+        println("You are underage")
+    }
+    else if(hasPermision || age > 25){
+        println("You have limited access")
+    }
+
+    val isActive = false
+    if(!isActive){
+        println("user is active")
+    }else{
+        println("user is inactive")
+    }
+
+
+
 }
